@@ -1,0 +1,41 @@
+html,body {
+  height: 100%;
+  font-family: 'Source Serif Pro', serif;
+}
+
+body {
+  padding-top: 51px;
+  background: #efefef;
+  color: #333;
+}
+
+#template {
+  display: none;
+
+}
+
+.btn {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #17b363;
+}
+
+#studentList {
+  padding: 1em 1em 2em 1em;
+  background-color: white;
+  margin-bottom: 120px;
+}
+
+.student img {
+  margin-right: 1em;
+}
+
+.student {
+  margin-bottom: 1em;
+}

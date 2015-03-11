@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Apprend Web Demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro' rel='stylesheet' type='text/css'>
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+<div class="page-container">
+    <div class="container">
+      <div class="row">
+
+        <!-- main area -->
+        <div class="col-xs-12 col-sm-12" data-spy="scroll" data-target="#sidebar-nav">
+          <header>
+						<img src="http://apprend.org/images/apprend-logo.png" align="right" width="100"/>
+					<h1>My Classmates</h1>
+					<p><button id="getStudents" type="button" class="btn btn-primary">
+						Get Student Info
+						</button>
+					</p>
+          <p>Clicking the button above will fetch a list of Intro to Programming students from meetup.com. </p>
+				</header>
+					<div id="studentList" >
+
+						Nothing to see here yet...
+
+					</div>
+
+
+					<div id="template">
+						<h3>Our Template</h3>
+
+						<div class="student row">
+							<div class="col-xs-2">
+								<img src="images/apprend.png" class="thumb" />
+							</div>
+							<h3 class="col-xs-10">Name Goes Here</h3>
+						</div>
+
+					</div>
+
+
+				</div><!-- /.col-xs-12 main -->
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/.page-container-->
+
+	<!-- script references -->
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
